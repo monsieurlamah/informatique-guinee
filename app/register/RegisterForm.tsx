@@ -73,9 +73,9 @@ const RegisterForm:React.FC<RegisterFormProps> = ({currentUser}) => {
         <Heading title="Inscrivez-vous à Informatique Guinée"/>
         <Button 
         outline 
-        label="Inscrivez-vous avec Google"
+        label="Continuer avec Google"
         icon={AiOutlineGoogle}
-        onClick={()=>{}}
+        onClick={()=>{signIn('google')}}
         />
         <hr className="bg-slate-300 w-full h-px"/>
         <Input
