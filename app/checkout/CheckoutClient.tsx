@@ -92,10 +92,10 @@ const CheckoutClient = () => {
           <div text-teal-500 text-center>
             Succès du paiement
           </div>
-          <div className="max-w-[220px] w-full">
+          <div className="max-w-[300px] w-full">
             <Button
               label="Consultez vos commandes"
-              onClick={() => router.push("/order")}
+              onClick={() => router.push("/orders")}
             />
           </div>
         </div>
